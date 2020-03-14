@@ -1,0 +1,81 @@
+body {
+    background-color: #617c74;
+    background-image: url(./img/素材.png);
+    /* width: 20px; */
+    margin-right: 200px;
+    background-repeat: repeat-x;
+    background-position: 0;
+    /* <img src="./img/素材.png" width="500" height="313"> */
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    font-style: italic;
+}
+
+a:link {
+    color: #000000;
+}
+
+
+/* 未访问链接*/
+
+a:visited {
+    color: #067700;
+}
+
+
+/* 已访问链接 */
+
+a:hover {
+    color: rgb(129, 92, 117);
+}
+
+
+/* 鼠标移动到链接上 */
+
+a:active {
+    color: #0000FF;
+}
+
+
+/* 鼠标点击时 */
+
+
+/* p1 {
+        color: red;
+        text-align: right;
+    } */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    overflow: hidden;
+    /* top: 0; */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    /* width: 60px; */
+    padding: 8px 16px;
+    text-align: center;
+    /* color: aquamarine; */
+}
+
+li a:hover {
+    background-color: cadetblue;
+}
